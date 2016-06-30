@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Revmob"
-  s.version      = "9.0.6"
+  s.version      = "9.1.0"
   s.summary      = "Revmob SDK for iOS"
 
   s.description  = <<-DESC
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :http => "http://s3.amazonaws.com/sdks/revmob-ios-sdk-9.0.6.zip" }
+  s.source       = { :http => "http://sicads3.com/static/revmob-ios-sdk-9.1.0.zip" }
   s.vendored_frameworks = "revmob-ios-sdk/RevMobAds.framework"
 
   s.frameworks = "AdSupport", "StoreKit", "CoreLocation", "SystemConfiguration", "MediaPlayer"
